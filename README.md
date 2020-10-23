@@ -2,7 +2,7 @@ Yanuar Octavianus
 185150700111006
 
 Step:
-    1.  Membuka cmd, lalu ketik composer create-project --prefer-dist laravel/lumen bookapp untuk membuat direktori bookapp di folder user
+1.  Membuka cmd, lalu ketik composer create-project --prefer-dist laravel/lumen bookapp untuk membuat direktori bookapp di folder user
     2.  Membuat database dengan mengaktifnya xampp, lalu membuka localhost/phpmyadmin. Buat database dengan nama "bookapp_lumen"
     3.  Meng edit .env di dalam projek bookapp untuk mengkoneksikan ke dalam database
     4.  Mengkatifkan fitur Facades dan Eloquent dengan membuka app.php lalu menghapus commentnya
