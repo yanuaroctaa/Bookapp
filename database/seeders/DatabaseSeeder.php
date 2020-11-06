@@ -11,7 +11,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         DB::table('books')->insert([
-            'title' => 'War of the Warlodrs',
+            'title' => 'War of the Warlords',
             'description' => 'A science fiction masterpiece about Martians invading London',
             'author' => 'H. G. Weels',
             'created_at' => Carbon::now(),
